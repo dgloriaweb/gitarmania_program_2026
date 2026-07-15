@@ -1,0 +1,38 @@
+[
+    {
+      "id": 1,
+      "day": "2026-07-20",
+      "venue": "Főtér",
+      "time": "14:00 - 14:15",
+      "category": "category-community",
+      "title": "Technikai megnyitó",
+      "description": "A Gitármánia és Zenei Továbbképző Tábor ünnepélyes megnyitója."
+    },
+    {
+      "id": 2,
+      "day": "2026-07-20",
+      "venue": "Főtér",
+      "time": "14:30 - 15:30",
+      "category": "category-extra",
+      "title": "Sárszegi Dávid",
+      "description": "Amikre nem tudsz felkészülni... Interaktív feladatok a zenei komfortzónán túl."
+    },
+    {
+      "id": 3,
+      "day": "2026-07-20",
+      "venue": "1-es előadó",
+      "time": "13:30 - 13:50",
+      "category": "category-community",
+      "title": "101. Hangszert a kézbe",
+      "description": "Ünnepélyes megnyitó rendezvény."
+    },
+    {
+      "id": 4,
+      "day": "2026-07-20",
+      "venue": "10-es előadó",
+      "time": "14:30 - 15:30",
+      "category": "category-extra",
+      "title": "Hermann János",
+      "description": "Hogyan hangosítsd a zenekarodat? Hangtechnikus vs. Zenész."
+    }
+  ]
