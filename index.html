@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gitármánia Tábor 2026</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <div class="day-selector">
+            <button class="day-btn active" onclick="switchDay('2026-07-20')">Hétfő</button>
+            <button class="day-btn" onclick="switchDay('2026-07-21')">Kedd</button>
+            <button class="day-btn" onclick="switchDay('2026-07-22')">Szerda</button>
+        </div>
+        <h2 id="current-venue-title">Főtér</h2>
+    </header>
+
+    <main class="venue-slider" id="venueSlider">
+        
+        <section class="venue-page" data-venue="Főtér">
+            <div class="event-card category-community">
+                <span class="time">14:00 - 14:15</span>
+                <h3>Technikai megnyitó</h3>
+                <p>A Gitármánia és Zenei Továbbképző Tábor ünnepélyes megnyitója.</p>
+            </div>
+            <div class="event-card category-extra">
+                <span class="time">14:30 - 15:30</span>
+                <h3>Sárszegi Dávid</h3>
+                <p>Amikre nem tudsz felkészülni... Interaktív feladatok.</p>
+            </div>
+        </section>
+
+        <section class="venue-page" data-venue="1-es előadó">
+            <div class="event-card category-community">
+                <span class="time">13:30 - 13:50</span>
+                <h3>101. Hangszert a kézbe</h3>
+                <p>Ünnepélyes megnyitó rendezvény.</p>
+            </div>
+        </section>
+
+        <section class="venue-page" data-venue="10-es előadó">
+            <div class="event-card category-extra">
+                <span class="time">14:30 - 15:30</span>
+                <h3>Hermann János</h3>
+                <p>Hogyan hangosítsd a zenekarodat? Hangtechnikus vs. Zenész.</p>
+            </div>
+        </section>
+
+    </main>
+
+    <script src="app.js"></script>
+</body>
+</html>
