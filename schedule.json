@@ -1,38 +1,1397 @@
 [
-    {
-      "id": 1,
-      "day": "2026-07-20",
-      "venue": "Főtér",
-      "time": "14:00 - 14:15",
-      "category": "category-community",
-      "title": "Technikai megnyitó",
-      "description": "A Gitármánia és Zenei Továbbképző Tábor ünnepélyes megnyitója."
-    },
-    {
-      "id": 2,
-      "day": "2026-07-20",
-      "venue": "Főtér",
-      "time": "14:30 - 15:30",
-      "category": "category-extra",
-      "title": "Sárszegi Dávid",
-      "description": "Amikre nem tudsz felkészülni... Interaktív feladatok a zenei komfortzónán túl."
-    },
-    {
-      "id": 3,
-      "day": "2026-07-20",
-      "venue": "1-es előadó",
-      "time": "13:30 - 13:50",
-      "category": "category-community",
-      "title": "101. Hangszert a kézbe",
-      "description": "Ünnepélyes megnyitó rendezvény."
-    },
-    {
-      "id": 4,
-      "day": "2026-07-20",
-      "venue": "10-es előadó",
-      "time": "14:30 - 15:30",
-      "category": "category-extra",
-      "title": "Hermann János",
-      "description": "Hogyan hangosítsd a zenekarodat? Hangtechnikus vs. Zenész."
-    }
-  ]
+  {
+    "id": 1,
+    "day": "2026-07-20",
+    "venue": "",
+    "time": "8. 00-12. 00.",
+    "category": "category-community",
+    "title": "Érkezés",
+    "description": ""
+  },
+  {
+    "id": 2,
+    "day": "2026-07-20",
+    "venue": "1-es előadó",
+    "time": "13. 30-13. 50.",
+    "category": "category-community",
+    "title": "101. Hangszert a kézbe ünnepélyes megnyitó",
+    "description": ""
+  },
+  {
+    "id": 3,
+    "day": "2026-07-20",
+    "venue": "1-es előadó",
+    "time": "13. 50- 14.30",
+    "category": "category-community",
+    "title": "Farkas-Bács Levenete és Benkő Máté",
+    "description": "Örömzene hangolt csövekkel a közönség bevonásával."
+  },
+  {
+    "id": 4,
+    "day": "2026-07-20",
+    "venue": "Főtér",
+    "time": "14. 00-14. 15.",
+    "category": "category-community",
+    "title": "A Gitármánia és Zenei Továbbképző Tábor technikai megnyitója",
+    "description": ""
+  },
+  {
+    "id": 5,
+    "day": "2026-07-20",
+    "venue": "10-es előadó",
+    "time": "14. 30-15. 30.",
+    "category": "category-extra",
+    "title": "Hermann János",
+    "description": "Hogyan hangosítsd a zenekarodat? A színpadi hangosítás első lépései. A FA10 tanári zenekar és Csepregi Géza közreműködésével. Mindkettő mást akar? Hangtechnikus vs. Zenész. (- Mi kell a zenekarom hangosításához? - Mikrofonozás, kábelezés. - Monitor rendszer. - Line check. - Sound check. - Színpadi etikett.)"
+  },
+  {
+    "id": 6,
+    "day": "2026-07-20",
+    "venue": "Főépület társalgó",
+    "time": "14. 30-15. 30.",
+    "category": "category-extra",
+    "title": "Kolosai Fecó",
+    "description": "A még stabilabb hangképzésért! (Hangszet a kézbe előadás)"
+  },
+  {
+    "id": 7,
+    "day": "2026-07-20",
+    "venue": "Főtér",
+    "time": "14. 30-15. 30.",
+    "category": "category-extra",
+    "title": "Sárszegi Dávid",
+    "description": "Amikre nem tudsz felkészülni... (Számtalan helyzet, szituáció van a zenélésben, amik túlmutatnak a a próbatermi felkészülésen. A zenei komfortot magunk mögött hagyva, interaktív feladatokon keresztül megnézzük, hogyan reagáljunk váratlan feladatokra, helyzetekre, akadályokra!)"
+  },
+  {
+    "id": 8,
+    "day": "2026-07-20",
+    "venue": "Főépület 24-es terem",
+    "time": "16. 00-17. 00.",
+    "category": "category-invited-1",
+    "title": "Szentgallay György",
+    "description": "Basszusgitár kurzusa"
+  },
+  {
+    "id": 9,
+    "day": "2026-07-20",
+    "venue": "Főépület társalgó",
+    "time": "16. 00-17. 00.",
+    "category": "category-invited-1",
+    "title": "Cséry Zoltán",
+    "description": "A zongora hangszínen túl is van élet"
+  },
+  {
+    "id": 10,
+    "day": "2026-07-20",
+    "venue": "Főtér",
+    "time": "16. 00-17. 00.",
+    "category": "category-invited-1",
+    "title": "Nagy Kristóf",
+    "description": "Az improvizáció NEM random! (Tudatos de mégis szabad impró készségek fejlesztése, a jammelés szó újradefiniálása Nagy Kristóffal és zenekarával. 2x-es nemzetközi loopstation bajnok)"
+  },
+  {
+    "id": 11,
+    "day": "2026-07-20",
+    "venue": "1-es előadó",
+    "time": "16. 00-17. 00.",
+    "category": "category-invited-1",
+    "title": "Sántha Gabesz",
+    "description": "Körbe-körbe karikára (A gyakorlástól a színpadig - mi mindenre jó egy Looper? Hangszert hozzatok!)"
+  },
+  {
+    "id": 12,
+    "day": "2026-07-20",
+    "venue": "10-es előadó",
+    "time": "17. 30-18. 30.",
+    "category": "category-invited-2",
+    "title": "Ferenczi György és a Rackajam",
+    "description": "A zenekar belülről"
+  },
+  {
+    "id": 13,
+    "day": "2026-07-20",
+    "venue": "Főépület társalgó",
+    "time": "17. 30-18. 30.",
+    "category": "category-invited-2",
+    "title": "Györki Szilvia",
+    "description": "PROZÓDIA - Ahol találkozik a dalszöveg, a ritmus és az ének."
+  },
+  {
+    "id": 14,
+    "day": "2026-07-20",
+    "venue": "1-es előadó",
+    "time": "17. 30-18. 30.",
+    "category": "category-invited-2",
+    "title": "Benkő Zsolt",
+    "description": "Gitárral a Blues körül (Hangszet a kézbe előadás)"
+  },
+  {
+    "id": 15,
+    "day": "2026-07-20",
+    "venue": "Főtér",
+    "time": "18. 30-20. 00.",
+    "category": "category-community",
+    "title": "Zenekari összeírás",
+    "description": "zenekarok kialakítása"
+  },
+  {
+    "id": 16,
+    "day": "2026-07-20",
+    "venue": "",
+    "time": "18. 30-19. 30.",
+    "category": "category-meals",
+    "title": "Vacsora",
+    "description": ""
+  },
+  {
+    "id": 17,
+    "day": "2026-07-20",
+    "venue": "Főtér",
+    "time": "20. 00-21. 00.",
+    "category": "category-band-session",
+    "title": "Seven Seconds In The Fu7ure",
+    "description": "rendhagyó zenekari foglalkozás (Zene hét másodperccel a jövőből! Valós idejű komponálás bármilyen műfajban! Ti vagytok a setlist.)"
+  },
+  {
+    "id": 18,
+    "day": "2026-07-20",
+    "venue": "Büfé",
+    "time": "21. 30-",
+    "category": "category-community",
+    "title": "Közös „most mutasd meg” +barátkozás",
+    "description": ""
+  },
+  {
+    "id": 19,
+    "day": "2026-07-21",
+    "venue": "",
+    "time": "08. 00-09. 00.",
+    "category": "category-meals",
+    "title": "Reggeli",
+    "description": ""
+  },
+  {
+    "id": 20,
+    "day": "2026-07-21",
+    "venue": "Főépület társalgó",
+    "time": "09. 00-10. 00.",
+    "category": "category-permanent-teachers",
+    "title": "Billentyűsök",
+    "description": "Szabó Károly"
+  },
+  {
+    "id": 21,
+    "day": "2026-07-21",
+    "venue": "Főépület 24-es terem",
+    "time": "09. 00-10. 00.",
+    "category": "category-permanent-teachers",
+    "title": "Kezdő basszusgitár",
+    "description": "Hudák Attila"
+  },
+  {
+    "id": 22,
+    "day": "2026-07-21",
+    "venue": "Főépület 25-ös terem",
+    "time": "09. 00-10. 00.",
+    "category": "category-permanent-teachers",
+    "title": "Haladó basszusgitár",
+    "description": "Takács Roland Adrián"
+  },
+  {
+    "id": 23,
+    "day": "2026-07-21",
+    "venue": "Főépület 26-os terem",
+    "time": "09. 00-10. 00.",
+    "category": "category-permanent-teachers",
+    "title": "Kezdő dob",
+    "description": "Fekete Szilárd"
+  },
+  {
+    "id": 24,
+    "day": "2026-07-21",
+    "venue": "10-es előadó",
+    "time": "09. 00-10. 00.",
+    "category": "category-permanent-teachers",
+    "title": "Haladó dob",
+    "description": "Sümeghi Tamás"
+  },
+  {
+    "id": 25,
+    "day": "2026-07-21",
+    "venue": "Főépület 27-es terem",
+    "time": "09. 00-10. 00.",
+    "category": "category-permanent-teachers",
+    "title": "Kezdő gitár",
+    "description": "Kovács Botond"
+  },
+  {
+    "id": 26,
+    "day": "2026-07-21",
+    "venue": "Főtér",
+    "time": "09. 00-10. 00.",
+    "category": "category-permanent-teachers",
+    "title": "Haladó gitár",
+    "description": "Andrásik Remo"
+  },
+  {
+    "id": 27,
+    "day": "2026-07-21",
+    "venue": "1-es előadó",
+    "time": "09. 00-10. 00.",
+    "category": "category-permanent-teachers",
+    "title": "Elektronikus zenei ismeretek",
+    "description": "Bakonyi Bálint"
+  },
+  {
+    "id": 28,
+    "day": "2026-07-21",
+    "venue": "Főépület emelet",
+    "time": "09. 00-",
+    "category": "category-permanent-teachers",
+    "title": "Zenekari stúdiófelvételek készítése és házi stúdiózás gyakorlati ismeretek",
+    "description": "Turcsán András"
+  },
+  {
+    "id": 29,
+    "day": "2026-07-21",
+    "venue": "Főtér",
+    "time": "09. 00-",
+    "category": "category-permanent-teachers",
+    "title": "Hangtechnikai gyakorlatok a koncertsátor valamennyi programja alatt",
+    "description": "Baranya Tamás"
+  },
+  {
+    "id": 30,
+    "day": "2026-07-21",
+    "venue": "Főépület 23-as terem, kis étterem",
+    "time": "10.30-",
+    "category": "category-community",
+    "title": "Próbatermi gyakorlatok",
+    "description": "Togyeriska Imre és Csepregi Géza"
+  },
+  {
+    "id": 31,
+    "day": "2026-07-21",
+    "venue": "10-es előadó",
+    "time": "10.30-",
+    "category": "category-community",
+    "title": "A zenekari órák alatt hangosítási gyakorlati órák, valós élő környezetben",
+    "description": "Hermann János"
+  },
+  {
+    "id": 32,
+    "day": "2026-07-21",
+    "venue": "10-es előadó, Főtér",
+    "time": "10.30-13. 00.",
+    "category": "category-community",
+    "title": "Zenekari óra",
+    "description": "a tábor összes tanárával. Szabó Károly - billentyű, Hermann Tamás - ének, Papesch Péter - bass, Tóth Tamás - dob, Benkő Máté - gitár, Antares (Kolosai Ferenc - ének/bass, Kovács Botond - gitár, Pap Dávid - dob), Lombos Úr és az Etilalakulat (Lombos Márton - ének/dalszövegek, Benkő Zsolt - gitár, Bakonyi Bálint - producer/billentyű, Sümeghi Tamás - dob, Takács Roland Adrián - bass), Pacziga Linda - ének, Hudák Attila - bass, Osváth Gábor - gitár, Fekete Szilárd - dob. BOCI ÉS PIPI – A két helyi egyenérték... alias HAJDU ZOLI és EGRY BALÁZS. Van aki tartja, van aki bírja. (produkciós workshop minden nap/mindenhol)."
+  },
+  {
+    "id": 33,
+    "day": "2026-07-21",
+    "venue": "",
+    "time": "12. 30-13. 30.",
+    "category": "category-meals",
+    "title": "Ebéd",
+    "description": ""
+  },
+  {
+    "id": 34,
+    "day": "2026-07-21",
+    "venue": "összes terem",
+    "time": "13. 00-14. 00.",
+    "category": "category-community",
+    "title": "Zenekari próba",
+    "description": "a tábor összes termében."
+  },
+  {
+    "id": 35,
+    "day": "2026-07-21",
+    "venue": "Főtér",
+    "time": "13. 00-",
+    "category": "category-invited-1",
+    "title": "Kackstädter Péter és Matz Ádám",
+    "description": "A színpadtól az adásig - Broadcast workshop."
+  },
+  {
+    "id": 36,
+    "day": "2026-07-21",
+    "venue": "10-es előadó",
+    "time": "14. 30-15. 30.",
+    "category": "category-invited-1",
+    "title": "Pacziga Linda",
+    "description": "énekkurzusa"
+  },
+  {
+    "id": 37,
+    "day": "2026-07-21",
+    "venue": "Főépület 24-es terem",
+    "time": "14. 30-15. 30.",
+    "category": "category-invited-1",
+    "title": "Szeifert Bálint 'Jason",
+    "description": "Önkifejezés kompromisszumok nélkül."
+  },
+  {
+    "id": 38,
+    "day": "2026-07-21",
+    "venue": "Főépület társalgó",
+    "time": "14. 30-15. 30.",
+    "category": "category-invited-1",
+    "title": "Török Bettina",
+    "description": "Zenekari menedzsment (zeneipari alapok induló előadók számára)"
+  },
+  {
+    "id": 39,
+    "day": "2026-07-21",
+    "venue": "Főtér",
+    "time": "14. 30-15. 30.",
+    "category": "category-invited-1",
+    "title": "Ádám Donát",
+    "description": "dobkurzusa (Nyolcados groove-ok világa)"
+  },
+  {
+    "id": 40,
+    "day": "2026-07-21",
+    "venue": "Főépület 27-es terem",
+    "time": "14. 30-15. 30.",
+    "category": "category-invited-1",
+    "title": "Szabolcsi Bence Fészek",
+    "description": "gitárkurzusa (Improvizációs eszközök fejlesztése.)"
+  },
+  {
+    "id": 41,
+    "day": "2026-07-21",
+    "venue": "Főtér",
+    "time": "16. 00-17. 00.",
+    "category": "category-invited-2",
+    "title": "Kőbányáról a nagyszínpadokra",
+    "description": "rendhagyó zenekari kurzus Maróthy Zoltán és Tornóczky Ferenc vezetésével."
+  },
+  {
+    "id": 42,
+    "day": "2026-07-21",
+    "venue": "10-es előadó",
+    "time": "16. 00-17. 00.",
+    "category": "category-invited-2",
+    "title": "Saya Noé - Kőrös Mimi",
+    "description": "Live Act a színpadon (Hogyan épül fel egy elektronikus live set)"
+  },
+  {
+    "id": 43,
+    "day": "2026-07-21",
+    "venue": "1-es előadó",
+    "time": "16. 00-17. 00.",
+    "category": "category-invited-2",
+    "title": "Lombos Marci",
+    "description": "5tletszobrász kurzus"
+  },
+  {
+    "id": 44,
+    "day": "2026-07-21",
+    "venue": "Főépület 27-es terem",
+    "time": "16. 00-17. 00.",
+    "category": "category-invited-2",
+    "title": "Palásti Máté",
+    "description": "Nem kell mindent tudni... a saját zenei hang keresése."
+  },
+  {
+    "id": 45,
+    "day": "2026-07-21",
+    "venue": "Főépület társalgó",
+    "time": "16. 00-17. 00.",
+    "category": "category-invited-2",
+    "title": "Szabó Károly és Bira Zsuzsi",
+    "description": "Hangosfilm, zenés színház. (A musicalek és a filmzenék varázslatos világa.)"
+  },
+  {
+    "id": 46,
+    "day": "2026-07-21",
+    "venue": "10-es előadó",
+    "time": "17. 30-18. 30.",
+    "category": "category-permanent-teachers",
+    "title": "Kolosai Fecó",
+    "description": "Hangszálsimogató / Gitármánia kórus"
+  },
+  {
+    "id": 47,
+    "day": "2026-07-21",
+    "venue": "1-es előadó",
+    "time": "17. 30-18. 30.",
+    "category": "category-permanent-teachers",
+    "title": "Osváth Gábor",
+    "description": "Zárkózz fel! – gitárkurzusa nem csak gitárosoknak... hogy az elmélet és a gyakorlat szinkronban legyen."
+  },
+  {
+    "id": 48,
+    "day": "2026-07-21",
+    "venue": "összes szabad terem",
+    "time": "17. 30-20. 00.",
+    "category": "category-community",
+    "title": "Zenekari próba",
+    "description": "a tábor összes szabad termében."
+  },
+  {
+    "id": 49,
+    "day": "2026-07-21",
+    "venue": "",
+    "time": "18. 30-19. 30.",
+    "category": "category-meals",
+    "title": "Vacsora",
+    "description": ""
+  },
+  {
+    "id": 50,
+    "day": "2026-07-21",
+    "venue": "Főtér",
+    "time": "20. 00-21. 00.",
+    "category": "category-band-session",
+    "title": "Szebényi Dániel",
+    "description": "rendhagyó zenekari foglalkozás"
+  },
+  {
+    "id": 51,
+    "day": "2026-07-21",
+    "venue": "Főtér",
+    "time": "21. 00-22. 00.",
+    "category": "category-band-session",
+    "title": "Saya Noé",
+    "description": "rendhagyó zenekari foglalkozás"
+  },
+  {
+    "id": 52,
+    "day": "2026-07-21",
+    "venue": "Büfé",
+    "time": "22. 00-",
+    "category": "category-community",
+    "title": "Közös „most mutasd meg” +barátkozás",
+    "description": ""
+  },
+  {
+    "id": 53,
+    "day": "2026-07-22",
+    "venue": "",
+    "time": "08. 00-09. 00.",
+    "category": "category-meals",
+    "title": "Reggeli",
+    "description": ""
+  },
+  {
+    "id": 54,
+    "day": "2026-07-22",
+    "venue": "Főépület társalgó",
+    "time": "09. 00-10. 00.",
+    "category": "category-permanent-teachers",
+    "title": "Billentyűsök",
+    "description": "Szabó Károly"
+  },
+  {
+    "id": 55,
+    "day": "2026-07-22",
+    "venue": "Főépület 24-es terem",
+    "time": "09. 00-10. 00.",
+    "category": "category-permanent-teachers",
+    "title": "Kezdő basszusgitár",
+    "description": "Hudák Attila"
+  },
+  {
+    "id": 56,
+    "day": "2026-07-22",
+    "venue": "Főépület 25-ös terem",
+    "time": "09. 00-10. 00.",
+    "category": "category-permanent-teachers",
+    "title": "Haladó basszusgitár",
+    "description": "Takács Roland Adrián"
+  },
+  {
+    "id": 57,
+    "day": "2026-07-22",
+    "venue": "Főépület 26-os terem",
+    "time": "09. 00-10. 00.",
+    "category": "category-permanent-teachers",
+    "title": "Kezdő dob",
+    "description": "Fekete Szilárd"
+  },
+  {
+    "id": 58,
+    "day": "2026-07-22",
+    "venue": "10-es előadó",
+    "time": "09. 00-10. 00.",
+    "category": "category-permanent-teachers",
+    "title": "Haladó dob",
+    "description": "Sümeghi Tamás"
+  },
+  {
+    "id": 59,
+    "day": "2026-07-22",
+    "venue": "Főépület 27-es terem",
+    "time": "09. 00-10. 00.",
+    "category": "category-permanent-teachers",
+    "title": "Kezdő gitár",
+    "description": "Kovács Botond"
+  },
+  {
+    "id": 60,
+    "day": "2026-07-22",
+    "venue": "Főtér",
+    "time": "09. 00-10. 00.",
+    "category": "category-permanent-teachers",
+    "title": "Haladó gitár",
+    "description": "Andrásik Remo"
+  },
+  {
+    "id": 61,
+    "day": "2026-07-22",
+    "venue": "1-es előadó",
+    "time": "09. 00-10. 00.",
+    "category": "category-permanent-teachers",
+    "title": "Elektronikus zenei ismeretek",
+    "description": "Bakonyi Bálint"
+  },
+  {
+    "id": 62,
+    "day": "2026-07-22",
+    "venue": "Főépület emelet",
+    "time": "09. 00-",
+    "category": "category-permanent-teachers",
+    "title": "Zenekari stúdiófelvételek készítése és házi stúdiózás gyakorlati ismeretek",
+    "description": "Turcsán András"
+  },
+  {
+    "id": 63,
+    "day": "2026-07-22",
+    "venue": "Főtér",
+    "time": "09. 00-",
+    "category": "category-permanent-teachers",
+    "title": "Hangtechnikai gyakorlatok a koncertsátor valamennyi programja alatt",
+    "description": "Baranya Tamás"
+  },
+  {
+    "id": 64,
+    "day": "2026-07-22",
+    "venue": "Főépület 23-as terem, kis étterem",
+    "time": "10.30-",
+    "category": "category-community",
+    "title": "Próbatermi gyakorlatok",
+    "description": "Togyeriska Imre és Csepregi Géza"
+  },
+  {
+    "id": 65,
+    "day": "2026-07-22",
+    "venue": "10-es előadó",
+    "time": "10.30-",
+    "category": "category-community",
+    "title": "A zenekari órák alatt hangosítási gyakorlati órák, valós élő környezetben",
+    "description": "Hermann János"
+  },
+  {
+    "id": 66,
+    "day": "2026-07-22",
+    "venue": "10-es előadó, Főtér",
+    "time": "10.30-13. 00.",
+    "category": "category-community",
+    "title": "Zenekari óra",
+    "description": "a tábor összes tanárával. Szabó Károly - billentyű, Hermann Tamás - ének, Papesch Péter - bass, Tóth Tamás - dob, Benkő Máté - gitár, Antares (Kolosai Ferenc - ének/bass, Kovács Botond - gitár, Pap Dávid - dob), Lombos Úr és az Etilalakulat (Lombos Márton - ének/dalszövegek, Benkő Zsolt - gitár, Bakonyi Bálint - producer/billentyű, Sümeghi Tamás - dob, Takács Roland Adrián - bass), Pacziga Linda - ének, Hudák Attila - bass, Osváth Gábor - gitár, Fekete Szilárd - dob. BOCI ÉS PIPI – A két helyi egyenérték... alias HAJDU ZOLI és EGRY BALÁZS. Van aki tartja, van aki bírja. (produkciós workshop minden nap/mindenhol)."
+  },
+  {
+    "id": 67,
+    "day": "2026-07-22",
+    "venue": "",
+    "time": "12. 30-13. 30.",
+    "category": "category-meals",
+    "title": "Ebéd",
+    "description": ""
+  },
+  {
+    "id": 68,
+    "day": "2026-07-22",
+    "venue": "összes terem",
+    "time": "13. 00-14. 00.",
+    "category": "category-community",
+    "title": "Zenekari próba",
+    "description": "a tábor összes termében."
+  },
+  {
+    "id": 69,
+    "day": "2026-07-22",
+    "venue": "10-es előadó",
+    "time": "14. 30-15. 30.",
+    "category": "category-invited-1",
+    "title": "Pacziga Linda",
+    "description": "énekkurzusa"
+  },
+  {
+    "id": 70,
+    "day": "2026-07-22",
+    "venue": "Főépület 24-es terem",
+    "time": "14. 30-15. 30.",
+    "category": "category-invited-1",
+    "title": "Temesi Berci",
+    "description": "basszusgitáros 10 pont"
+  },
+  {
+    "id": 71,
+    "day": "2026-07-22",
+    "venue": "Főtér",
+    "time": "14. 30-15. 30.",
+    "category": "category-invited-1",
+    "title": "Zombori Atus",
+    "description": "dobkurzusa"
+  },
+  {
+    "id": 72,
+    "day": "2026-07-22",
+    "venue": "Főépület 27-es terem",
+    "time": "14. 30-15. 30.",
+    "category": "category-invited-1",
+    "title": "Tornóczky Ferenc",
+    "description": "gitárkurzusa"
+  },
+  {
+    "id": 73,
+    "day": "2026-07-22",
+    "venue": "1-es előadó",
+    "time": "14. 30-15. 30.",
+    "category": "category-invited-1",
+    "title": "Tóth Gergő",
+    "description": "Supermanagement - Hogyan működik egy menedzsment/kiadó? Mi van a motorháztető alatt?"
+  },
+  {
+    "id": 74,
+    "day": "2026-07-22",
+    "venue": "10-es előadó",
+    "time": "16. 00-17. 00.",
+    "category": "category-invited-2",
+    "title": "Nagy Ricsi",
+    "description": "énekkurzusa"
+  },
+  {
+    "id": 75,
+    "day": "2026-07-22",
+    "venue": "Főépület társalgó",
+    "time": "16. 00-17. 00.",
+    "category": "category-invited-2",
+    "title": "Tempfli Erik",
+    "description": "Egy szál zongora, mint zenekar"
+  },
+  {
+    "id": 76,
+    "day": "2026-07-22",
+    "venue": "Főépület társalgó",
+    "time": "16. 00-17. 00.",
+    "category": "category-invited-2",
+    "title": "Kékkői Zalán",
+    "description": "GITÁRZÓNA - Csöves/modellezős Effektláncok 4 kábeles bekötéssel. (Milyen hibákat lehet elkövetni egyik, vagy másik esetben.)"
+  },
+  {
+    "id": 77,
+    "day": "2026-07-22",
+    "venue": "1-es előadó",
+    "time": "16. 00-17. 00.",
+    "category": "category-invited-2",
+    "title": "Lombos Marci",
+    "description": "5tletszobrász kurzus"
+  },
+  {
+    "id": 78,
+    "day": "2026-07-22",
+    "venue": "Főépület 24-es terem",
+    "time": "16. 00-17. 00.",
+    "category": "category-invited-2",
+    "title": "Károly Tamás",
+    "description": "Tanácsok stúdiózás előtt... (- Hogyan készülj fel a stúdiófelvételre és mi az a pre-production? - Hogyan néz ki maga a stúdiófelvétel, mi a menete, mire kell készülni? - Mit tudsz megtenni azért, hogy a pénzedből/időből a lehető legtöbbet hozzátok ki a stúdióban? - Hogyan működj együtt a hangmérnökkel, hogy minél ütősebb hangzású dalaitok szülessenek? - Tippek, trükkök, jó tanácsok Károly Tamástól, a HangArt Stúdió vezető hangmérnökétől.)"
+  },
+  {
+    "id": 79,
+    "day": "2026-07-22",
+    "venue": "10-es előadó",
+    "time": "17. 30-18. 30.",
+    "category": "category-permanent-teachers",
+    "title": "Kolosai Fecó",
+    "description": "Hangszálsimogató / Gitármánia kórus"
+  },
+  {
+    "id": 80,
+    "day": "2026-07-22",
+    "venue": "1-es előadó",
+    "time": "17. 30-18. 30.",
+    "category": "category-permanent-teachers",
+    "title": "Osváth Gábor",
+    "description": "Zárkózz fel! – gitárkurzusa nem csak gitárosoknak... hogy az elmélet és a gyakorlat szinkronban legyen."
+  },
+  {
+    "id": 81,
+    "day": "2026-07-22",
+    "venue": "Büfé",
+    "time": "17. 30-18. 30.",
+    "category": "category-permanent-teachers",
+    "title": "Lombos Marci és Temesi Berci",
+    "description": "Honnan jön a pénz?! (Jogdíjak, szerzői jogok és életutak)"
+  },
+  {
+    "id": 82,
+    "day": "2026-07-22",
+    "venue": "összes szabad terem",
+    "time": "17. 30-20. 00.",
+    "category": "category-community",
+    "title": "Zenekari próba",
+    "description": "a tábor összes szabad termében."
+  },
+  {
+    "id": 83,
+    "day": "2026-07-22",
+    "venue": "",
+    "time": "18. 30-19. 30.",
+    "category": "category-meals",
+    "title": "Vacsora",
+    "description": ""
+  },
+  {
+    "id": 84,
+    "day": "2026-07-22",
+    "venue": "Főtér",
+    "time": "20. 00-21. 00.",
+    "category": "category-band-session",
+    "title": "Tornóczky All Acces– rendhagyó zenekari foglalkozás",
+    "description": "Rendhagyó zenekari foglalkozás."
+  },
+  {
+    "id": 85,
+    "day": "2026-07-22",
+    "venue": "Főtér",
+    "time": "21. 00-22. 00.",
+    "category": "category-band-session",
+    "title": "Artúr Rambo",
+    "description": "Dalszerző workshop, avagy demózunk és számot írunk, mintha egy zenekar lennénk"
+  },
+  {
+    "id": 86,
+    "day": "2026-07-22",
+    "venue": "Büfé",
+    "time": "22. 00-",
+    "category": "category-community",
+    "title": "Közös „most mutasd meg” +barátkozás",
+    "description": ""
+  },
+  {
+    "id": 87,
+    "day": "2026-07-23",
+    "venue": "",
+    "time": "08. 00-09. 00.",
+    "category": "category-meals",
+    "title": "Reggeli",
+    "description": ""
+  },
+  {
+    "id": 88,
+    "day": "2026-07-23",
+    "venue": "Főépület társalgó",
+    "time": "09. 00-10. 00.",
+    "category": "category-permanent-teachers",
+    "title": "Billentyűsök",
+    "description": "Szabó Károly"
+  },
+  {
+    "id": 89,
+    "day": "2026-07-23",
+    "venue": "Főépület 24-es terem",
+    "time": "09. 00-10. 00.",
+    "category": "category-permanent-teachers",
+    "title": "Kezdő basszusgitár",
+    "description": "Hudák Attila"
+  },
+  {
+    "id": 90,
+    "day": "2026-07-23",
+    "venue": "Főépület 25-ös terem",
+    "time": "09. 00-10. 00.",
+    "category": "category-permanent-teachers",
+    "title": "Haladó basszusgitár",
+    "description": "Takács Roland Adrián"
+  },
+  {
+    "id": 91,
+    "day": "2026-07-23",
+    "venue": "Főépület 26-os terem",
+    "time": "09. 00-10. 00.",
+    "category": "category-permanent-teachers",
+    "title": "Kezdő dob",
+    "description": "Fekete Szilárd"
+  },
+  {
+    "id": 92,
+    "day": "2026-07-23",
+    "venue": "10-es előadó",
+    "time": "09. 00-10. 00.",
+    "category": "category-permanent-teachers",
+    "title": "Haladó dob",
+    "description": "Sümeghi Tamás"
+  },
+  {
+    "id": 93,
+    "day": "2026-07-23",
+    "venue": "Főépület 27-es terem",
+    "time": "09. 00-10. 00.",
+    "category": "category-permanent-teachers",
+    "title": "Kezdő gitár",
+    "description": "Kovács Botond"
+  },
+  {
+    "id": 94,
+    "day": "2026-07-23",
+    "venue": "Főtér",
+    "time": "09. 00-10. 00.",
+    "category": "category-permanent-teachers",
+    "title": "Haladó gitár",
+    "description": "Andrásik Remo"
+  },
+  {
+    "id": 95,
+    "day": "2026-07-23",
+    "venue": "1-es előadó",
+    "time": "09. 00-10. 00.",
+    "category": "category-permanent-teachers",
+    "title": "Elektronikus zenei ismeretek",
+    "description": "Bakonyi Bálint"
+  },
+  {
+    "id": 96,
+    "day": "2026-07-23",
+    "venue": "Főépület emelet",
+    "time": "09. 00-",
+    "category": "category-permanent-teachers",
+    "title": "Zenekari stúdiófelvételek készítése és házi stúdiózás gyakorlati ismeretek",
+    "description": "Turcsán András"
+  },
+  {
+    "id": 97,
+    "day": "2026-07-23",
+    "venue": "Főtér",
+    "time": "09. 00-",
+    "category": "category-permanent-teachers",
+    "title": "Hangtechnikai gyakorlatok a koncertsátor valamennyi programja alatt",
+    "description": "Baranya Tamás"
+  },
+  {
+    "id": 98,
+    "day": "2026-07-23",
+    "venue": "Főépület 23-as terem, kis étterem",
+    "time": "10.30-",
+    "category": "category-community",
+    "title": "Próbatermi gyakorlatok",
+    "description": "Togyeriska Imre és Csepregi Géza"
+  },
+  {
+    "id": 99,
+    "day": "2026-07-23",
+    "venue": "10-es előadó",
+    "time": "10.30-",
+    "category": "category-community",
+    "title": "A zenekari órák alatt hangosítási gyakorlati órák, valós élő környezetben",
+    "description": "Hermann János"
+  },
+  {
+    "id": 100,
+    "day": "2026-07-23",
+    "venue": "10-es előadó, Főtér",
+    "time": "10.30-13. 00.",
+    "category": "category-community",
+    "title": "Zenekari óra",
+    "description": "a tábor összes tanárával. Szabó Károly - billentyű, Hermann Tamás - ének, Papesch Péter - bass, Tóth Tamás - dob, Benkő Máté - gitár, Antares (Kolosai Ferenc - ének/bass, Kovács Botond - gitár, Pap Dávid - dob), Lombos Úr és az Etilalakulat (Lombos Márton - ének/dalszövegek, Benkő Zsolt - gitár, Bakonyi Bálint - producer/billentyű, Sümeghi Tamás - dob, Takács Roland Adrián - bass), Pacziga Linda - ének, Hudák Attila - bass, Osváth Gábor - gitár, Fekete Szilárd - dob. BOCI ÉS PIPI – A két helyi egyenérték... alias HAJDU ZOLI és EGRY BALÁZS. Van aki tartja, van aki bírja. (produkciós workshop minden nap/mindenhol)."
+  },
+  {
+    "id": 101,
+    "day": "2026-07-23",
+    "venue": "",
+    "time": "12. 30-13. 30.",
+    "category": "category-meals",
+    "title": "Ebéd",
+    "description": ""
+  },
+  {
+    "id": 102,
+    "day": "2026-07-23",
+    "venue": "összes terem",
+    "time": "13. 00-14. 00.",
+    "category": "category-community",
+    "title": "Zenekari próba",
+    "description": "a tábor összes termében."
+  },
+  {
+    "id": 103,
+    "day": "2026-07-23",
+    "venue": "10-es előadó",
+    "time": "14. 30-15. 30.",
+    "category": "category-invited-1",
+    "title": "Pacziga Linda",
+    "description": "énekkurzusa"
+  },
+  {
+    "id": 104,
+    "day": "2026-07-23",
+    "venue": "Főtér",
+    "time": "14. 30-15. 30.",
+    "category": "category-invited-1",
+    "title": "Tóth Tamás",
+    "description": "Értelmezzünk bogyókat! Kottaolvasás vagy rakétatudomány?"
+  },
+  {
+    "id": 105,
+    "day": "2026-07-23",
+    "venue": "Főépület 27-es terem",
+    "time": "14. 30-15. 30.",
+    "category": "category-invited-1",
+    "title": "Mihalovics Dávid",
+    "description": "Bass technikák és soundok a modern könnyűzenében."
+  },
+  {
+    "id": 106,
+    "day": "2026-07-23",
+    "venue": "1-es előadó",
+    "time": "14. 30-15. 30.",
+    "category": "category-invited-1",
+    "title": "Várallay Benedek",
+    "description": "Szitár, zene és extrém utazás egyedül Indiában. Szitárkurzus és élménybeszámoló."
+  },
+  {
+    "id": 107,
+    "day": "2026-07-23",
+    "venue": "Főépület társalgó",
+    "time": "14. 30-15. 30.",
+    "category": "category-invited-1",
+    "title": "Romhányi Áron",
+    "description": "billentyűkurzusa"
+  },
+  {
+    "id": 108,
+    "day": "2026-07-23",
+    "venue": "1-es előadó",
+    "time": "16. 00-17. 00.",
+    "category": "category-invited-2",
+    "title": "Lombos Marci",
+    "description": "5tletszobrász kurzus"
+  },
+  {
+    "id": 109,
+    "day": "2026-07-23",
+    "venue": "Főtér",
+    "time": "16. 00-17. 00.",
+    "category": "category-invited-2",
+    "title": "Lukács Peta",
+    "description": "Tessék szépen gitározni"
+  },
+  {
+    "id": 110,
+    "day": "2026-07-23",
+    "venue": "10-es előadó",
+    "time": "16. 00-17. 00.",
+    "category": "category-invited-2",
+    "title": "Kapcsolódó - dalkör Doramajorával",
+    "description": "A KAPCSOLÓDÓ egy játékos, nyitott dalkör, ahol nem kell „énekelni tudni” – elég, ha érkezni tudsz. Egy olyan biztonságos tér, ahol közösen fedezzük fel a hangunkat, a jelenlétünket és egymást."
+  },
+  {
+    "id": 111,
+    "day": "2026-07-23",
+    "venue": "10-es előadó",
+    "time": "17. 30-18. 30.",
+    "category": "category-permanent-teachers",
+    "title": "Kolosai Fecó",
+    "description": "Hangszálsimogató / Gitármánia kórus"
+  },
+  {
+    "id": 112,
+    "day": "2026-07-23",
+    "venue": "1-es előadó",
+    "time": "17. 30-18. 30.",
+    "category": "category-permanent-teachers",
+    "title": "Osváth Gábor",
+    "description": "Zárkózz fel! – gitárkurzusa nem csak gitárosoknak... hogy az elmélet és a gyakorlat szinkronban legyen."
+  },
+  {
+    "id": 113,
+    "day": "2026-07-23",
+    "venue": "összes szabad terem",
+    "time": "17. 30-20. 00.",
+    "category": "category-community",
+    "title": "Zenekari próba",
+    "description": "a tábor összes szabad termében."
+  },
+  {
+    "id": 114,
+    "day": "2026-07-23",
+    "venue": "",
+    "time": "18. 30-19. 30.",
+    "category": "category-meals",
+    "title": "Vacsora",
+    "description": ""
+  },
+  {
+    "id": 115,
+    "day": "2026-07-23",
+    "venue": "Főtér",
+    "time": "20. 00-21. 00.",
+    "category": "category-band-session",
+    "title": "Rodák Rebeka",
+    "description": "rendhagyó zenekari foglalkozás"
+  },
+  {
+    "id": 116,
+    "day": "2026-07-23",
+    "venue": "Főtér",
+    "time": "21. 00-22. 00.",
+    "category": "category-band-session",
+    "title": "tudokegyfát– rendhagyó zenekari foglalkozás",
+    "description": "Rendhagyó zenekari foglalkozás."
+  },
+  {
+    "id": 117,
+    "day": "2026-07-23",
+    "venue": "Büfé",
+    "time": "21. 40-",
+    "category": "category-community",
+    "title": "Közös „most mutasd meg” +barátkozás",
+    "description": ""
+  },
+  {
+    "id": 118,
+    "day": "2026-07-24",
+    "venue": "",
+    "time": "08. 00-09. 00.",
+    "category": "category-meals",
+    "title": "Reggeli",
+    "description": ""
+  },
+  {
+    "id": 119,
+    "day": "2026-07-24",
+    "venue": "Főépület társalgó",
+    "time": "09. 00-10. 00.",
+    "category": "category-permanent-teachers",
+    "title": "Billentyűsök",
+    "description": "Szabó Károly"
+  },
+  {
+    "id": 120,
+    "day": "2026-07-24",
+    "venue": "Főépület 24-es terem",
+    "time": "09. 00-10. 00.",
+    "category": "category-permanent-teachers",
+    "title": "Kezdő basszusgitár",
+    "description": "Hudák Attila"
+  },
+  {
+    "id": 121,
+    "day": "2026-07-24",
+    "venue": "Főépület 25-ös terem",
+    "time": "09. 00-10. 00.",
+    "category": "category-permanent-teachers",
+    "title": "Haladó basszusgitár",
+    "description": "Takács Roland Adrián"
+  },
+  {
+    "id": 122,
+    "day": "2026-07-24",
+    "venue": "Főépület 26-os terem",
+    "time": "09. 00-10. 00.",
+    "category": "category-permanent-teachers",
+    "title": "Kezdő dob",
+    "description": "Fekete Szilárd"
+  },
+  {
+    "id": 123,
+    "day": "2026-07-24",
+    "venue": "10-es előadó",
+    "time": "09. 00-10. 00.",
+    "category": "category-permanent-teachers",
+    "title": "Haladó dob",
+    "description": "Sümeghi Tamás"
+  },
+  {
+    "id": 124,
+    "day": "2026-07-24",
+    "venue": "Főépület 27-es terem",
+    "time": "09. 00-10. 00.",
+    "category": "category-permanent-teachers",
+    "title": "Kezdő gitár",
+    "description": "Kovács Botond"
+  },
+  {
+    "id": 125,
+    "day": "2026-07-24",
+    "venue": "Főtér",
+    "time": "09. 00-10. 00.",
+    "category": "category-permanent-teachers",
+    "title": "Haladó gitár",
+    "description": "Andrásik Remo"
+  },
+  {
+    "id": 126,
+    "day": "2026-07-24",
+    "venue": "1-es előadó",
+    "time": "09. 00-10. 00.",
+    "category": "category-permanent-teachers",
+    "title": "Elektronikus zenei ismeretek",
+    "description": "Bakonyi Bálint"
+  },
+  {
+    "id": 127,
+    "day": "2026-07-24",
+    "venue": "Főépület emelet",
+    "time": "09. 00-",
+    "category": "category-permanent-teachers",
+    "title": "Zenekari stúdiófelvételek készítése és házi stúdiózás gyakorlati ismeretek",
+    "description": "Turcsán András"
+  },
+  {
+    "id": 128,
+    "day": "2026-07-24",
+    "venue": "Főtér",
+    "time": "09. 00-",
+    "category": "category-permanent-teachers",
+    "title": "Hangtechnikai gyakorlatok a koncertsátor valamennyi programja alatt",
+    "description": "Baranya Tamás"
+  },
+  {
+    "id": 129,
+    "day": "2026-07-24",
+    "venue": "Főépület 23-as terem, kis étterem",
+    "time": "10.30-",
+    "category": "category-community",
+    "title": "Próbatermi gyakorlatok",
+    "description": "Togyeriska Imre és Csepregi Géza"
+  },
+  {
+    "id": 130,
+    "day": "2026-07-24",
+    "venue": "10-es előadó",
+    "time": "10.30-",
+    "category": "category-community",
+    "title": "A zenekari órák alatt hangosítási gyakorlati órák, valós élő környezetben",
+    "description": "Hermann János"
+  },
+  {
+    "id": 131,
+    "day": "2026-07-24",
+    "venue": "10-es előadó, Főtér",
+    "time": "10.30-13. 00.",
+    "category": "category-community",
+    "title": "Zenekari óra",
+    "description": "a tábor összes tanárával. Szabó Károly - billentyű, Hermann Tamás - ének, Papesch Péter - bass, Tóth Tamás - dob, Benkő Máté - gitár, Antares (Kolosai Ferenc - ének/bass, Kovács Botond - gitár, Pap Dávid - dob), Lombos Úr és az Etilalakulat (Lombos Márton - ének/dalszövegek, Benkő Zsolt - gitár, Bakonyi Bálint - producer/billentyű, Sümeghi Tamás - dob, Takács Roland Adrián - bass), Pacziga Linda - ének, Hudák Attila - bass, Osváth Gábor - gitár, Fekete Szilárd - dob. BOCI ÉS PIPI – A két helyi egyenérték... alias HAJDU ZOLI és EGRY BALÁZS. Van aki tartja, van aki bírja. (produkciós workshop minden nap/mindenhol)."
+  },
+  {
+    "id": 132,
+    "day": "2026-07-24",
+    "venue": "",
+    "time": "12. 30-13. 30.",
+    "category": "category-meals",
+    "title": "Ebéd",
+    "description": ""
+  },
+  {
+    "id": 133,
+    "day": "2026-07-24",
+    "venue": "összes terem",
+    "time": "13. 00-14. 00.",
+    "category": "category-community",
+    "title": "Zenekari próba",
+    "description": "a tábor összes termében."
+  },
+  {
+    "id": 134,
+    "day": "2026-07-24",
+    "venue": "10-es előadó",
+    "time": "14. 30-15. 30.",
+    "category": "category-invited-1",
+    "title": "Pacziga Linda",
+    "description": "énekkurzusa"
+  },
+  {
+    "id": 135,
+    "day": "2026-07-24",
+    "venue": "Főtér",
+    "time": "14. 30-15. 30.",
+    "category": "category-invited-1",
+    "title": "Sárszegi Dávid",
+    "description": "Tempólicit ( Interaktív módon kimaxoljuk az egyéni sebességünket. Megnézzük ki tudja kihozni magából a maximumot. Kezdőknek és haladónak egyaránt megnézzük a határait. A lényeg, hogy saját magunkhoz képest nézzük meg a mostani határainkat.)"
+  },
+  {
+    "id": 136,
+    "day": "2026-07-24",
+    "venue": "Főépület társalgó",
+    "time": "14. 30-15. 30.",
+    "category": "category-invited-1",
+    "title": "Szűcs Norbert",
+    "description": "GitÁrral szemben - Szűcs Norbert produceri útja a Paramount Recording Studios-ig. ( A mai zeneiparban már nem elég jól gitározni. Az előadás megmutatja, hogyan lesz a gitárból működő zenei rendszer, ami képes közönséget, hangzást és valódi jelenlétet építeni az AI korszakában. A kérdés nem az, hogy mit tudsz játszani, hanem az, hogy mit hozol létre!)"
+  },
+  {
+    "id": 137,
+    "day": "2026-07-24",
+    "venue": "1-es előadó",
+    "time": "14. 30-15. 30.",
+    "category": "category-invited-1",
+    "title": "Beke Márk",
+    "description": "Osztályfőnöki óra Rock tanárúrral"
+  },
+  {
+    "id": 138,
+    "day": "2026-07-24",
+    "venue": "1-es előadó",
+    "time": "16. 00-17. 00.",
+    "category": "category-invited-2",
+    "title": "Lombos Marci",
+    "description": "5tletszobrász kurzus"
+  },
+  {
+    "id": 139,
+    "day": "2026-07-24",
+    "venue": "10-es előadó",
+    "time": "16. 00-17. 00.",
+    "category": "category-invited-2",
+    "title": "Kovács Miklós",
+    "description": "Effektezős kurzus. Mert ilyena, ilyen a VOX"
+  },
+  {
+    "id": 140,
+    "day": "2026-07-24",
+    "venue": "Főépület társalgó",
+    "time": "16. 00-17. 00.",
+    "category": "category-invited-2",
+    "title": "Papesch Péter",
+    "description": "Páratlan állásfoglalás (Páratlan ritmusok és kíséreteik)"
+  },
+  {
+    "id": 141,
+    "day": "2026-07-24",
+    "venue": "Főépület 27-es terem",
+    "time": "16. 00-17. 00.",
+    "category": "category-invited-2",
+    "title": "Roses of Thieves",
+    "description": "Kis szobából a nagyvilágba"
+  },
+  {
+    "id": 142,
+    "day": "2026-07-24",
+    "venue": "10-es előadó",
+    "time": "17. 30-18. 30.",
+    "category": "category-permanent-teachers",
+    "title": "Kolosai Fecó",
+    "description": "Hangszálsimogató / Gitármánia kórus"
+  },
+  {
+    "id": 143,
+    "day": "2026-07-24",
+    "venue": "1-es előadó",
+    "time": "17. 30-18. 30.",
+    "category": "category-permanent-teachers",
+    "title": "Osváth Gábor és Kovács Botond",
+    "description": "Mire mit játsszak? Horizontálás és modális gondolkodás egyszerűen."
+  },
+  {
+    "id": 144,
+    "day": "2026-07-24",
+    "venue": "összes szabad terem",
+    "time": "17. 30-20. 00.",
+    "category": "category-community",
+    "title": "Zenekari próba",
+    "description": "a tábor összes szabad termében."
+  },
+  {
+    "id": 145,
+    "day": "2026-07-24",
+    "venue": "Főtér",
+    "time": "20. 00-21. 00.",
+    "category": "category-band-session",
+    "title": "Roses of Thieves",
+    "description": "rendhagyó zenekari foglalkozás"
+  },
+  {
+    "id": 146,
+    "day": "2026-07-24",
+    "venue": "Főtér",
+    "time": "21. 00-22. 00.",
+    "category": "category-band-session",
+    "title": "ANTARES",
+    "description": "rendhagyó zenekari foglalkozás"
+  },
+  {
+    "id": 147,
+    "day": "2026-07-24",
+    "venue": "",
+    "time": "18. 30-19. 30.",
+    "category": "category-meals",
+    "title": "Vacsora",
+    "description": ""
+  },
+  {
+    "id": 148,
+    "day": "2026-07-24",
+    "venue": "Büfé",
+    "time": "21. 40-",
+    "category": "category-community",
+    "title": "Közös „most mutasd meg” +barátkozás",
+    "description": ""
+  },
+  {
+    "id": 149,
+    "day": "2026-07-25",
+    "venue": "",
+    "time": "08. 00-09. 00.",
+    "category": "category-meals",
+    "title": "Reggeli",
+    "description": ""
+  },
+  {
+    "id": 150,
+    "day": "2026-07-25",
+    "venue": "Főtér",
+    "time": "11. 00-",
+    "category": "category-community",
+    "title": "A tábor zenekarainak koncertje",
+    "description": ""
+  },
+  {
+    "id": 151,
+    "day": "2026-07-25",
+    "venue": "",
+    "time": "12. 30-13. 30.",
+    "category": "category-meals",
+    "title": "Ebéd",
+    "description": ""
+  },
+  {
+    "id": 152,
+    "day": "2026-07-25",
+    "venue": "Főtér",
+    "time": "13. 30-18. 30.",
+    "category": "category-community",
+    "title": "A tábor zenekarainak koncertje",
+    "description": ""
+  },
+  {
+    "id": 153,
+    "day": "2026-07-25",
+    "venue": "",
+    "time": "18. 30-19. 30.",
+    "category": "category-meals",
+    "title": "Vacsora",
+    "description": ""
+  },
+  {
+    "id": 154,
+    "day": "2026-07-25",
+    "venue": "Főtér",
+    "time": "19. 30-",
+    "category": "category-community",
+    "title": "A tábor zenekarainak koncertje",
+    "description": ""
+  },
+  {
+    "id": 155,
+    "day": "2026-07-26",
+    "venue": "",
+    "time": "09. 00-",
+    "category": "category-community",
+    "title": "Táborzárás",
+    "description": ""
+  }
+]
