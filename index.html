@@ -2,26 +2,34 @@
 <html lang="hu">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
     <title>Gitármánia Tábor 2026</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
     <header>
+        <p class="location-micro-label">Aktuális helyszín</p>
+        <h2 id="current-venue-title">Főtér</h2>
+        
+        <div class="venue-dots" id="venueDots"></div>
+
         <div class="day-selector">
             <button class="day-btn active" onclick="switchDay('2026-07-20')">Hétfő</button>
             <button class="day-btn" onclick="switchDay('2026-07-21')">Kedd</button>
             <button class="day-btn" onclick="switchDay('2026-07-22')">Szerda</button>
         </div>
-        <h2 id="current-venue-title">Főtér</h2>
     </header>
 
-    <main class="venue-slider" id="venueSlider">
-        <section class="venue-page" data-venue="Főtér" id="venue-Főtér"></section>
-        <section class="venue-page" data-venue="1-es előadó" id="venue-1-es előadó"></section>
-        <section class="venue-page" data-venue="10-es előadó" id="venue-10-es előadó"></section>
-    </main>
+    <div class="slider-wrapper">
+        <main class="venue-slider" id="venueSlider">
+            <section class="venue-page" data-venue="Főtér" id="venue-Főtér"></section>
+            <section class="venue-page" data-venue="1-es előadó" id="venue-1-es előadó"></section>
+            <section class="venue-page" data-venue="10-es előadó" id="venue-10-es előadó"></section>
+            <section class="venue-page" data-venue="Főépület társalgó" id="venue-Főépület társalgó"></section>
+            <section class="venue-page" data-venue="Főépület 24-es terem" id="venue-Főépület 24-es terem"></section>
+        </main>
+    </div>
 
     <script src="app.js"></script>
 </body>
