@@ -83,7 +83,7 @@ function updateNavigationUI() {
   // Helyszínnév frissítése
   if (pages[currentPageIndex]) {
     const currentVenueName = pages[currentPageIndex].getAttribute("data-venue");
-    venueTitle.textContent = currentVenueName;
+    venueTitle.textContent = `< ${currentVenueName} >`;
   }
 
   // Aktuális pötty frissítése
