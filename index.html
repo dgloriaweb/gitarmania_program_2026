@@ -7,7 +7,23 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-
+    <div class="hamburger-menu" id="menuToggle">
+        <span></span>
+        <span></span>
+        <span></span>
+    </div>
+    
+    <div class="side-drawer" id="sideDrawer">
+        <div class="drawer-header">
+            <h3>Globális Keresés</h3>
+        </div>
+        <div class="search-bar-container">
+            <input type="text" id="globalSearchInput" placeholder="Keresés az összes program között...">
+        </div>
+        <div class="search-results-wrapper" id="searchResultsContainer">
+            <p class="search-placeholder">Gépelj a kereséshez az összes nap és helyszín között...</p>
+        </div>
+    </div>
     <header>
         <p id="current-time" class="current-time"></p>
         <p class="location-micro-label">Aktuális helyszín</p>

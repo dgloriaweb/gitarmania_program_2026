@@ -62,16 +62,44 @@ function renderSchedule() {
   });
 }
 
-// 4. Napváltás (visszaugrik az első helyszínre)
+// // 4. Napváltás (visszaugrik az első helyszínre)
+// function switchDay(dateString) {
+//   currentDay = dateString;
+//   document
+//     .querySelectorAll(".day-btn")
+//     .forEach((btn) => btn.classList.remove("active"));
+//   if (event) event.target.classList.add("active");
+
+//   renderSchedule();
+//   slider.scrollTo({ left: 0, behavior: "smooth" });
+// }
+
+// 4. Napváltás (megtartja az aktuális helyszínt)
 function switchDay(dateString) {
+  // 1. Elmentjük a jelenlegi helyszín indexét még a váltás előtt
+  const pageWidth = window.innerWidth;
+  const currentPageIndex = Math.round(slider.scrollLeft / pageWidth);
+
   currentDay = dateString;
+  
+  // Gombok aktív állapotának kezelése
   document
     .querySelectorAll(".day-btn")
     .forEach((btn) => btn.classList.remove("active"));
-  if (event) event.target.classList.add("active");
+  
+  // Biztonságos eseménykezelő hivatkozás
+  if (window.event && window.event.target) {
+    window.event.target.classList.add("active");
+  }
 
+  // 2. Újrarendereljük a táblázatot az új nap adataival
   renderSchedule();
-  slider.scrollTo({ left: 0, behavior: "smooth" });
+  
+  // 3. Ahelyett, hogy a 0. pozícióra ugranánk, visszaállítjuk az elmentett helyszínre
+  slider.scrollTo({ left: currentPageIndex * pageWidth, behavior: "auto" });
+  
+  // 4. Frissítjük a fejléces feliratot és a pöttyöket
+  updateNavigationUI();
 }
 
 // 5. Swipe (elhúzás) detektálása és felület frissítése
@@ -140,3 +168,71 @@ setInterval(() => {
     updateCurrentTime();
     renderSchedule();
 }, 60000);
+
+// --- Hamburger Menu & Search Core Logic ---
+const menuToggle = document.getElementById("menuToggle");
+const sideDrawer = document.getElementById("sideDrawer");
+const globalSearchInput = document.getElementById("globalSearchInput");
+const searchResultsContainer = document.getElementById("searchResultsContainer");
+
+const dayMap = {
+    "2026-07-20": "Hétfő",
+    "2026-07-21": "Kedd",
+    "2026-07-22": "Szerda",
+    "2026-07-23": "Csütörtök",
+    "2026-07-24": "Péntek",
+    "2026-07-25": "Szombat",
+    "2026-07-26": "Vasárnap"
+};
+
+// Toggle Side Drawer Display Menu State
+menuToggle.addEventListener("click", () => {
+    menuToggle.classList.toggle("open");
+    sideDrawer.classList.toggle("open");
+});
+
+// Trigger dynamic matches calculation on keypress inputs
+globalSearchInput.addEventListener("input", (e) => {
+    const keyword = e.target.value.toLowerCase().trim();
+    executeGlobalSearch(keyword);
+});
+
+function executeGlobalSearch(keyword) {
+    if (!keyword) {
+        searchResultsContainer.innerHTML = '<p class="search-placeholder">Gépelj a kereséshez az összes nap és helyszín között...</p>';
+        return;
+    }
+
+    // Filters every single entry regardless of current filters or timezone shifts
+    const matchPool = scheduleData.filter(event => {
+        const titleMatch = event.title?.toLowerCase().includes(keyword);
+        const descMatch = event.description?.toLowerCase().includes(keyword);
+        const venueMatch = event.venue?.toLowerCase().includes(keyword);
+        
+        return titleMatch || descMatch || venueMatch;
+    });
+
+    searchResultsContainer.innerHTML = "";
+
+    if (matchPool.length === 0) {
+        searchResultsContainer.innerHTML = '<p class="search-placeholder">Nincs találat a megadott kulcsszóra.</p>';
+        return;
+    }
+
+    // Build independent elements matching schema configurations
+    matchPool.forEach(event => {
+        const resultCard = document.createElement("div");
+        resultCard.className = `event-card ${event.category}`;
+        
+        const friendlyDay = dayMap[event.day] || event.day;
+        const friendlyVenue = event.venue || "Nincs kijelölt helyszín";
+
+        resultCard.innerHTML = `
+            <div class="result-meta-tags">${friendlyDay} • ${friendlyVenue}</div>
+            <span class="time">${event.time}</span>
+            <h3>${event.title}</h3>
+            <p>${event.description}</p>
+        `;
+        searchResultsContainer.appendChild(resultCard);
+    });
+}
