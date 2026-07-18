@@ -2,11 +2,11 @@
     {
       "id": 1,
       "day": "2026-07-20",
-      "venue": "",
+      "venue": "Főtér",
       "time": "08:00-12:00",
       "category": "category-community",
       "title": "Érkezés",
-      "description": ""
+      "description": "Érkezés"
     },
     {
       "id": 2,
@@ -15,7 +15,7 @@
       "time": "13:30-13:50",
       "category": "category-community",
       "title": "101. Hangszert a kézbe ünnepélyes megnyitó",
-      "description": ""
+      "description": "101. Hangszert a kézbe ünnepélyes megnyitó"
     },
     {
       "id": 3,
@@ -33,7 +33,7 @@
       "time": "14:00-14:15",
       "category": "category-community",
       "title": "A Gitármánia és Zenei Továbbképző Tábor technikai megnyitója",
-      "description": ""
+      "description": "A Gitármánia és Zenei Továbbképző Tábor technikai megnyitója"
     },
     {
       "id": 5,
@@ -137,11 +137,11 @@
     {
       "id": 16,
       "day": "2026-07-20",
-      "venue": "",
+      "venue": "Étkezések",
       "time": "18:30-19:30",
       "category": "category-meals",
       "title": "Vacsora",
-      "description": ""
+      "description": "Étkezések"
     },
     {
       "id": 17,
@@ -159,16 +159,16 @@
       "time": "21:30-",
       "category": "category-community",
       "title": "Közös „most mutasd meg” +barátkozás",
-      "description": ""
+      "description": "Közös „most mutasd meg” +barátkozás"
     },
     {
       "id": 19,
       "day": "2026-07-21",
-      "venue": "",
+      "venue": "Étkezések",
       "time": "08:00-09:00",
       "category": "category-meals",
       "title": "Reggeli",
-      "description": ""
+      "description": "Étkezések"
     },
     {
       "id": 20,
@@ -290,11 +290,11 @@
     {
       "id": 33,
       "day": "2026-07-21",
-      "venue": "",
+      "venue": "Étkezések",
       "time": "12:30-13:30",
       "category": "category-meals",
       "title": "Ebéd",
-      "description": ""
+      "description": "Étkezések"
     },
     {
       "id": 34,
@@ -434,11 +434,11 @@
     {
       "id": 49,
       "day": "2026-07-21",
-      "venue": "",
+      "venue": "Étkezések",
       "time": "18:30-19:30",
       "category": "category-meals",
       "title": "Vacsora",
-      "description": ""
+      "description": "Étkezések"
     },
     {
       "id": 50,
@@ -465,16 +465,16 @@
       "time": "22:00-",
       "category": "category-community",
       "title": "Közös „most mutasd meg” +barátkozás",
-      "description": ""
+      "description": "Közös „most mutasd meg” +barátkozás"
     },
     {
       "id": 53,
       "day": "2026-07-22",
-      "venue": "",
+      "venue": "Étkezések",
       "time": "08:00-09:00",
       "category": "category-meals",
       "title": "Reggeli",
-      "description": ""
+      "description": "Étkezések"
     },
     {
       "id": 54,
@@ -596,11 +596,11 @@
     {
       "id": 67,
       "day": "2026-07-22",
-      "venue": "",
+      "venue": "Étkezések",
       "time": "12:30-13:30",
       "category": "category-meals",
       "title": "Ebéd",
-      "description": ""
+      "description": "Étkezések"
     },
     {
       "id": 68,
@@ -740,11 +740,11 @@
     {
       "id": 83,
       "day": "2026-07-22",
-      "venue": "",
+      "venue": "Étkezések",
       "time": "18:30-19:30",
       "category": "category-meals",
       "title": "Vacsora",
-      "description": ""
+      "description": "Étkezések"
     },
     {
       "id": 84,
@@ -771,16 +771,16 @@
       "time": "22:00-",
       "category": "category-community",
       "title": "Közös „most mutasd meg” +barátkozás",
-      "description": ""
+      "description": "Közös „most mutasd meg” +barátkozás"
     },
     {
       "id": 87,
       "day": "2026-07-23",
-      "venue": "",
+      "venue": "Étkezések",
       "time": "08:00-09:00",
       "category": "category-meals",
       "title": "Reggeli",
-      "description": ""
+      "description": "Étkezések"
     },
     {
       "id": 88,
@@ -902,11 +902,11 @@
     {
       "id": 101,
       "day": "2026-07-23",
-      "venue": "",
+      "venue": "Étkezések",
       "time": "12:30-13:30",
       "category": "category-meals",
       "title": "Ebéd",
-      "description": ""
+      "description": "Étkezések"
     },
     {
       "id": 102,
@@ -1019,11 +1019,11 @@
     {
       "id": 114,
       "day": "2026-07-23",
-      "venue": "",
+      "venue": "Étkezések",
       "time": "18:30-19:30",
       "category": "category-meals",
       "title": "Vacsora",
-      "description": ""
+      "description": "Étkezések"
     },
     {
       "id": 115,
@@ -1050,16 +1050,16 @@
       "time": "21:40-",
       "category": "category-community",
       "title": "Közös „most mutasd meg” +barátkozás",
-      "description": ""
+      "description": "Közös „most mutasd meg” +barátkozás"
     },
     {
       "id": 118,
       "day": "2026-07-24",
-      "venue": "",
+      "venue": "Étkezések",
       "time": "08:00-09:00",
       "category": "category-meals",
       "title": "Reggeli",
-      "description": ""
+      "description": "Étkezések"
     },
     {
       "id": 119,
@@ -1181,11 +1181,11 @@
     {
       "id": 132,
       "day": "2026-07-24",
-      "venue": "",
+      "venue": "Étkezések",
       "time": "12:30-13:30",
       "category": "category-meals",
       "title": "Ebéd",
-      "description": ""
+      "description": "Étkezések"
     },
     {
       "id": 133,
@@ -1316,11 +1316,11 @@
     {
       "id": 147,
       "day": "2026-07-24",
-      "venue": "",
+      "venue": "Étkezések",
       "time": "18:30-19:30",
       "category": "category-meals",
       "title": "Vacsora",
-      "description": ""
+      "description": "Étkezések"
     },
     {
       "id": 148,
@@ -1329,16 +1329,16 @@
       "time": "21:40-",
       "category": "category-community",
       "title": "Közös „most mutasd meg” +barátkozás",
-      "description": ""
+      "description": "Közös „most mutasd meg” +barátkozás"
     },
     {
       "id": 149,
       "day": "2026-07-25",
-      "venue": "",
+      "venue": "Étkezések",
       "time": "08:00-09:00",
       "category": "category-meals",
       "title": "Reggeli",
-      "description": ""
+      "description": "Étkezések"
     },
     {
       "id": 150,
@@ -1347,16 +1347,16 @@
       "time": "11:00-",
       "category": "category-community",
       "title": "A tábor zenekarainak koncertje",
-      "description": ""
+      "description": "A tábor zenekarainak koncertje"
     },
     {
       "id": 151,
       "day": "2026-07-25",
-      "venue": "",
+      "venue": "Étkezések",
       "time": "12:30-13:30",
       "category": "category-meals",
       "title": "Ebéd",
-      "description": ""
+      "description": "Étkezések"
     },
     {
       "id": 152,
@@ -1365,16 +1365,16 @@
       "time": "13:30-18:30",
       "category": "category-community",
       "title": "A tábor zenekarainak koncertje",
-      "description": ""
+      "description": "A tábor zenekarainak koncertje"
     },
     {
       "id": 153,
       "day": "2026-07-25",
-      "venue": "",
+      "venue": "Étkezések",
       "time": "18:30-19:30",
       "category": "category-meals",
       "title": "Vacsora",
-      "description": ""
+      "description": "Étkezések"
     },
     {
       "id": 154,
@@ -1383,15 +1383,42 @@
       "time": "19:30-",
       "category": "category-community",
       "title": "A tábor zenekarainak koncertje",
-      "description": ""
+      "description": "A tábor zenekarainak koncertje"
     },
     {
       "id": 155,
       "day": "2026-07-26",
-      "venue": "",
+      "venue": "Főtér",
       "time": "09:00-",
       "category": "category-community",
       "title": "Táborzárás",
-      "description": ""
+      "description": "Táborzárás"
+    },
+    {
+      "id": 156,
+      "day": "2026-07-25",
+      "venue": "Főépület 24-es terem",
+      "time": "09:00-10:00",
+      "category": "category-permanent-teachers",
+      "title": "Kezdő basszusgitár",
+      "description": "Hudák Attila"
+    },
+    {
+      "id": 157,
+      "day": "2026-07-25",
+      "venue": "Főépület 26-os terem",
+      "time": "09:00-10:00",
+      "category": "category-permanent-teachers",
+      "title": "Kezdő dob",
+      "description": "Fekete Szilárd"
+    },
+    {
+      "id": 158,
+      "day": "2026-07-25",
+      "venue": "Főépület 27-es terem",
+      "time": "09:00-10:00",
+      "category": "category-permanent-teachers",
+      "title": "Kezdő gitár",
+      "description": "Kovács Botond"
     }
   ]
