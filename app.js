@@ -6,14 +6,27 @@ const dotsContainer = document.getElementById("venueDots");
 let scheduleData = [];
 let currentDay = "2026-07-20";
 
-// 1. JSON betöltése
+/**
+ * Loads the schedule data from the JSON file and updates the UI.
+ * Also sets the current day to the today's date if it exists in the schedule.
+ * Creates the dots and renders the schedule.
+ * Updates the navigation UI.
+ * 
+ * @returns {Promise<void>}
+ * @throws {Error} If the JSON file cannot be loaded.
+ */
 async function loadSchedule() {
   try {
     const response = await fetch("schedule.json");
     scheduleData = await response.json();
 
     const now = getCurrentDateTime();
-    const today = now.toISOString().slice(0, 10);
+    
+    // Helyi dátum kinyerése ISO eltolódási hiba nélkül (YYYY-MM-DD)
+    const year = now.getFullYear();
+    const month = String(now.getMonth() + 1).padStart(2, '0');
+    const day = String(now.getDate()).padStart(2, '0');
+    const today = `${year}-${month}-${day}`;
 
     if (scheduleData.some((e) => e.day === today)) {
       currentDay = today;
@@ -27,7 +40,9 @@ async function loadSchedule() {
   }
 }
 
-// 2. Slide indikátor pöttyök generálása
+/**
+ * Creates the dots and renders the schedule.
+ */
 function createDots() {
   dotsContainer.innerHTML = "";
   pages.forEach((_, index) => {
@@ -37,8 +52,13 @@ function createDots() {
   });
 }
 
-// 3. Események renderelése
+/**
+ * Renders the schedule.
+ * 
+ */
 function renderSchedule() {
+  syncDayButtonUI(currentDay);
+
   pages.forEach((page) => (page.innerHTML = ""));
   const now = getCurrentDateTime();
 
@@ -47,6 +67,7 @@ function renderSchedule() {
 
     return getEventStart(event) >= now;
   });
+
   activeEvents.forEach((event) => {
     const venueContainer = document.getElementById(`venue-${event.venue}`);
     if (venueContainer) {
@@ -62,47 +83,30 @@ function renderSchedule() {
   });
 }
 
-// // 4. Napváltás (visszaugrik az első helyszínre)
-// function switchDay(dateString) {
-//   currentDay = dateString;
-//   document
-//     .querySelectorAll(".day-btn")
-//     .forEach((btn) => btn.classList.remove("active"));
-//   if (event) event.target.classList.add("active");
-
-//   renderSchedule();
-//   slider.scrollTo({ left: 0, behavior: "smooth" });
-// }
-
-// 4. Napváltás (megtartja az aktuális helyszínt)
+/**
+ * Switches the day and updates the UI.
+ * 
+ * @param {string} dateString - The date string to switch to.
+ * @returns {void}
+ */
 function switchDay(dateString) {
-  // 1. Elmentjük a jelenlegi helyszín indexét még a váltás előtt
   const pageWidth = window.innerWidth;
   const currentPageIndex = Math.round(slider.scrollLeft / pageWidth);
 
   currentDay = dateString;
-  
-  // Gombok aktív állapotának kezelése
-  document
-    .querySelectorAll(".day-btn")
-    .forEach((btn) => btn.classList.remove("active"));
-  
-  // Biztonságos eseménykezelő hivatkozás
-  if (window.event && window.event.target) {
-    window.event.target.classList.add("active");
-  }
 
-  // 2. Újrarendereljük a táblázatot az új nap adataival
+  // Rendereléskor a renderSchedule() automatikusan lefutatja a syncDayButtonUI-t is
   renderSchedule();
   
-  // 3. Ahelyett, hogy a 0. pozícióra ugranánk, visszaállítjuk az elmentett helyszínre
   slider.scrollTo({ left: currentPageIndex * pageWidth, behavior: "auto" });
-  
-  // 4. Frissítjük a fejléces feliratot és a pöttyöket
   updateNavigationUI();
 }
 
-// 5. Swipe (elhúzás) detektálása és felület frissítése
+/**
+ * Updates the navigation UI.
+ * 
+ * @returns {void}
+ */
 function updateNavigationUI() {
   const scrollLeft = slider.scrollLeft;
   const pageWidth = window.innerWidth;
@@ -124,6 +128,12 @@ function updateNavigationUI() {
     }
   });
 }
+
+/**
+ * Gets the current date and time.
+ * 
+ * @returns {Date}
+ */
 function getCurrentDateTime() {
   return new Date();
 
@@ -131,6 +141,12 @@ function getCurrentDateTime() {
 //   return new Date("2026-07-23T13:52:00");
 }
 
+/**
+ * Gets the start time of an event.
+ * 
+ * @param {Object} event - The event object.
+ * @returns {Date}
+ */
 function getEventStart(event) {
   const start = event.time.split("-")[0].trim();
 
@@ -141,6 +157,11 @@ function getEventStart(event) {
   );
 }
 
+/**
+ * Updates the current time.
+ * 
+ * @returns {void}
+ */
 function updateCurrentTime() {
   const now = getCurrentDateTime();
 
@@ -197,6 +218,12 @@ globalSearchInput.addEventListener("input", (e) => {
     executeGlobalSearch(keyword);
 });
 
+/**
+ * Executes the global search.
+ * 
+ * @param {string} keyword - The keyword to search for.
+ * @returns {void}
+ */
 function executeGlobalSearch(keyword) {
     if (!keyword) {
         searchResultsContainer.innerHTML = '<p class="search-placeholder">Gépelj a kereséshez az összes nap és helyszín között...</p>';
@@ -235,4 +262,24 @@ function executeGlobalSearch(keyword) {
         `;
         searchResultsContainer.appendChild(resultCard);
     });
+}
+
+/**
+ * Synchronizes the day buttons with the current day.
+ * 
+ * @param {string} targetDate - The target date to synchronize with.
+ * @returns {void}
+ */
+function syncDayButtonUI(targetDate) {
+  document.querySelectorAll(".day-btn").forEach((btn) => {
+    const onclickText = btn.getAttribute("onclick") || "";
+    const dataDate = btn.getAttribute("data-date") || "";
+
+    // Ha a gomb dátuma vagy az onclick függvénye tartalmazza az aktuális dátumot
+    if (dataDate === targetDate || onclickText.includes(targetDate)) {
+      btn.classList.add("active");
+    } else {
+      btn.classList.remove("active");
+    }
+  });
 }
